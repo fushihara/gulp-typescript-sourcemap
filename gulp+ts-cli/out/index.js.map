@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"names":[],"mappings":";;AAAA,2BAA2B;AAC3B,+BAA+B;AAE/B,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAC;AACrB,QAAI,EAAE,CAAC;AACP,QAAI,EAAE,CAAC","file":"index.js","sourcesContent":["import { logA } from \"./a\";\r\nimport { logB } from \"./sub/b\";\r\n\r\nconsole.log(\"index\");\r\nlogA();\r\nlogB();"],"sourceRoot":"."}

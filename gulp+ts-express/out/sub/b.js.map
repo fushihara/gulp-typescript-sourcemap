@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/sub/b.ts"],"names":[],"mappings":";;AAAA;IACE,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AACnB,CAAC;AAFD,oBAEC;AACD;IACE,OAAO,GAAG,CAAC;AACb,CAAC;AAFD,oBAEC","file":"b.js","sourcesContent":["export function logB(){\r\n  console.log(`B`);\r\n}\r\nexport function strB():string{\r\n  return \"B\";\r\n}\r\n"],"sourceRoot":".."}
