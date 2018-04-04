@@ -7,7 +7,7 @@ gulp.task("build", () => {
   gulp.src('./src/**/*.ts')
     .pipe(gulpSourcemaps.init())
     .pipe(tsProject())
-    .pipe(gulpSourcemaps.write('.', {includeContent: true, sourceRoot: '.'}))
+    .pipe(gulpSourcemaps.write('.', { sourceRoot: '.' }))
     .pipe(gulp.dest('./out/'));
 });
 gulp.task('default', [`build`]);
